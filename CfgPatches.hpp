@@ -18,7 +18,13 @@ class CfgPatches
 			"Vest_V_CarrierRigKBT_01_light_wz93_F",
 			"Vest_V_CarrierRigKBT_01_light_mdu10_F",
 			"Vest_V_CarrierRigKBT_01_light_rodpm_F",
-			"Vest_V_CarrierRigKBT_01_light_cropat_F"
+			"Vest_V_CarrierRigKBT_01_light_cropat_F",
+			"B_AssaultPack_multitarn",
+			"B_AssaultPack_rodpm",
+			"B_AssaultPack_m84",
+			"B_AssaultPack_wz93",
+			"B_AssaultPack_cropat",
+			"B_AssaultPack_mdu10"
 		};
 		weapons[]=
 		{

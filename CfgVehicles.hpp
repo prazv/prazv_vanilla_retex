@@ -2,6 +2,7 @@ class CfgVehicles
 {
 	class B_Soldier_base_F;
 	class Vest_Base_F;
+	class B_AssaultPack_Base;
 	// uniforms
 	class B_Multitarn_soldier_F: B_Soldier_base_F
 	{
@@ -208,6 +209,79 @@ class CfgVehicles
 				name="V_CarrierRigKBT_01_light_cropat_F";
 				count=1;
 			};
+		};
+	};
+	//backpacks
+	class B_AssaultPack_multitarn: B_AssaultPack_Base
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="B_AssaultPack_khk";
+		scope=2;
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+		displayName="Assault Backpack (Multitarn)";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\backpack_compact_multitarn_co.paa"
+		};
+	};
+	class B_AssaultPack_rodpm: B_AssaultPack_Base
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="B_AssaultPack_khk";
+		scope=2;
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+		displayName="Assault Backpack (M2017)";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\backpack_compact_rodpm_co.paa"
+		};
+	};
+	class B_AssaultPack_m84: B_AssaultPack_Base
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="B_AssaultPack_khk";
+		scope=2;
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+		displayName="Assault Backpack (M84)";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\backpack_compact_m84_co.paa"
+		};
+	};
+	class B_AssaultPack_wz93: B_AssaultPack_Base
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="B_AssaultPack_khk";
+		scope=2;
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+		displayName="Assault Backpack (WZ93)";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\backpack_compact_wz93_co.paa"
+		};
+	};
+	class B_AssaultPack_cropat: B_AssaultPack_Base
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="B_AssaultPack_khk";
+		scope=2;
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+		displayName="Assault Backpack (CROPAT)";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\backpack_compact_cropat_co.paa"
+		};
+	};
+	class B_AssaultPack_mdu10: B_AssaultPack_Base
+	{
+		author="$STR_A3_Bohemia_Interactive";
+		_generalMacro="B_AssaultPack_khk";
+		scope=2;
+		picture="\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+		displayName="Assault Backpack (M-MDU-10)";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\backpack_compact_mdu10_co.paa"
 		};
 	};
 };
