@@ -1,0 +1,9 @@
+name = "prazv vanilla retex";                     
+picture = "prazv_vanilla_retex\data\UI\icon.paa";                  
+logo = "prazv_vanilla_retex\data\UI\icon.paa";                     
+logoOver = "prazv_vanilla_retex\data\UI\icon.paa";                 
+logoSmall = "prazv_vanilla_retex\data\UI\icon.paa";          
+//actionName = "Website";
+//action = "https://mywebsite.com";         
+overview = "This mod retextures vanilla uniforms, backpacks and helmets.";
+author = "prazv";
