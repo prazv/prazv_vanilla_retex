@@ -3,6 +3,7 @@ class CfgVehicles
 	class B_Soldier_base_F;
 	class Vest_Base_F;
 	class B_AssaultPack_Base;
+	class B_CTRG_Soldier_3_F;
 	// uniforms
 	class B_Multitarn_soldier_F: B_Soldier_base_F
 	{
@@ -100,6 +101,66 @@ class CfgVehicles
 		hiddenSelectionsTextures[]=
 		{
 			"prazv_vanilla_retex\data\clothing1_cropat_co.paa"
+		};
+	};
+	class B_CTRG_Soldier_3_multitarn_F: B_CTRG_Soldier_3_F
+	{
+		author="prazv";
+		_generalMacro="B_CTRG_Soldier_3_arid_F";
+		uniformClass="U_B_CTRG_Soldier_3_multitarn_F";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\U_B_CTRG_Soldier_multitarn_F_co.paa"
+		};
+	};
+	class B_CTRG_Soldier_3_mdu10_F: B_CTRG_Soldier_3_F
+	{
+		author="prazv";
+		_generalMacro="B_CTRG_Soldier_3_arid_F";
+		uniformClass="U_B_CTRG_Soldier_3_mdu10_F";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\U_B_CTRG_Soldier_mdu10_F_co.paa"
+		};
+	};
+	class B_CTRG_Soldier_3_rodpm_F: B_CTRG_Soldier_3_F
+	{
+		author="prazv";
+		_generalMacro="B_CTRG_Soldier_3_arid_F";
+		uniformClass="U_B_CTRG_Soldier_3_rodpm_F";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\U_B_CTRG_Soldier_rodpm_F_co.paa"
+		};
+	};
+	class B_CTRG_Soldier_3_wz93_F: B_CTRG_Soldier_3_F
+	{
+		author="prazv";
+		_generalMacro="B_CTRG_Soldier_3_arid_F";
+		uniformClass="U_B_CTRG_Soldier_3_wz93_F";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\U_B_CTRG_Soldier_wz93_F_co.paa"
+		};
+	};
+	class B_CTRG_Soldier_3_m84_F: B_CTRG_Soldier_3_F
+	{
+		author="prazv";
+		_generalMacro="B_CTRG_Soldier_3_arid_F";
+		uniformClass="U_B_CTRG_Soldier_3_m84_F";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\U_B_CTRG_Soldier_m84_F_co.paa"
+		};
+	};
+	class B_CTRG_Soldier_3_cropat_F: B_CTRG_Soldier_3_F
+	{
+		author="prazv";
+		_generalMacro="B_CTRG_Soldier_3_arid_F";
+		uniformClass="U_B_CTRG_Soldier_3_cropat_F";
+		hiddenSelectionsTextures[]=
+		{
+			"prazv_vanilla_retex\data\U_B_CTRG_Soldier_cropat_F_co.paa"
 		};
 	};
 	// vests 

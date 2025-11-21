@@ -13,6 +13,12 @@ class CfgPatches
 			"B_rodpm_soldier_F",
 			"B_mdu10_soldier_F",
 			"B_cropat_soldier_F",
+			"B_CTRG_Soldier_3_multitarn_F",
+			"B_CTRG_Soldier_3_mdu10_F",
+			"B_CTRG_Soldier_3_rodpm_F",
+			"B_CTRG_Soldier_3_wz93_F",
+			"B_CTRG_Soldier_3_m84_F",
+			"B_CTRG_Soldier_3_cropat_F",
 			"Vest_V_CarrierRigKBT_01_light_multitarn_F",
 			"Vest_V_CarrierRigKBT_01_light_m84_F",
 			"Vest_V_CarrierRigKBT_01_light_wz93_F",
@@ -35,6 +41,12 @@ class CfgPatches
 			"prazv_U_B_mdu10",
 			"prazv_U_B_wz93_2",
 			"prazv_U_B_cropat",
+			"U_B_CTRG_Soldier_3_multitarn_F",
+			"U_B_CTRG_Soldier_3_rodpm_F",
+			"U_B_CTRG_Soldier_3_m84_F",
+			"U_B_CTRG_Soldier_3_mdu10_F",
+			"U_B_CTRG_Soldier_3_cropat_F",
+			"U_B_CTRG_Soldier_3_wz93_F",
 			"V_CarrierRigKBT_01_light_multitarn_F",
 			"V_CarrierRigKBT_01_light_m84_F",
 			"V_CarrierRigKBT_01_light_rodpm_F",
@@ -64,7 +76,25 @@ class CfgPatches
 			"H_HelmetHBK_m84_F",
 			"H_HelmetHBK_mdu10_F",
 			"H_HelmetHBK_wz93_F",
-			"H_HelmetHBK_cropat_F"
+			"H_HelmetHBK_cropat_F",
+			"H_Booniehat_multitarn",
+			"H_Booniehat_m84",
+			"H_Booniehat_rodpm",
+			"H_Booniehat_cropat",
+			"H_Booniehat_wz93",
+			"H_Booniehat_mdu10",
+			"V_PlateCarrier2_multitarn",
+			"V_PlateCarrier2_rodpm",
+			"V_PlateCarrier2_m84",
+			"V_PlateCarrier2_cropat",
+			"V_PlateCarrier2_wz93",
+			"V_PlateCarrier2_mdu10",
+			"H_Watchcap_rodpm",
+			"H_Watchcap_wz93",
+			"H_Watchcap_cropat",
+			"H_Watchcap_multitarn",
+			"H_Watchcap_m84",
+			"H_Watchcap_mdu10"
 		};
 		requiredVersion="1";
 		requiredAddons[]=
@@ -74,6 +104,8 @@ class CfgPatches
 			"A3_Characters_F_Gamma",
 			"A3_Characters_F_EPA",
 			"A3_Characters_F_EPB",
+			"A3_Characters_F_Exp",
+			"A3_Characters_F_Enoch"
 		};
 	};
 };

@@ -1,5 +1,4 @@
 #include "CfgPatches.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
-#include "cfgMods.hpp"
 #include "CfgUnitInsignia.hpp"
